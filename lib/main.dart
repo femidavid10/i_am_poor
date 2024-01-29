@@ -5,7 +5,10 @@ void main() {
     MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('I Am Poor'),
+          title: const Text(
+            'I Am Poor',
+            style: TextStyle(color: Colors.white),
+          ),
           backgroundColor: Colors.grey[900],
         ),
         body: const Center(
